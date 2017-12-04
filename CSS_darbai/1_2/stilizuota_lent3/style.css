@@ -1,0 +1,25 @@
+table {
+	border-collapse: collapse;
+	border-spacing: 0px;
+	width: 500px;
+	text-align: left;
+}
+
+#theader {
+	background-color: lightgray;
+	color: white;
+}
+
+tr {
+	width: 100px;
+}
+tr:nth-child(even) {
+	background-color:lightgoldenrodyellow;
+}
+tr:nth-child(odd) {
+	background-color:pink;
+}
+
+tr:hover  {
+	background-color:palevioletred;
+}

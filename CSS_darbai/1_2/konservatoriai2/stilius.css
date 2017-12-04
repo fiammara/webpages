@@ -1,0 +1,26 @@
+h3 {
+	text-align: center;
+
+}
+
+p {
+
+	font-size: 11px;
+}
+
+#section {
+	margin-left: 300px;
+	width: 300px;
+}
+
+p:nth-child(odd)
+ {
+	color: blueviolet;
+}
+
+p:nth-child(even){
+	color: brown;
+}
+p:hover{
+	color: forestgreen;
+}

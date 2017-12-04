@@ -1,0 +1,74 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+main {
+	background-color: paleturquoise;
+	width: 650px;
+	height: 558px;
+	border-style: solid;
+	border-color: darkorange;
+	border-width: 1px;
+	margin: 40px;
+	position: relative;
+
+}
+
+#sky {
+	background-color: deepskyblue;
+	height: 200px;
+	width: 100%;
+}
+
+#grass {
+	background-color: forestgreen;
+	height: 100px;
+	width: 100%;
+}
+
+#strip {
+	background-color: dimgray;
+	height: 0px;
+	width: 100%;
+
+	border-top: 8px dashed white;
+
+	background-color: dimgray;
+}
+
+#roadbottom {
+	background-color: dimgray;
+	height: 125px;
+	width: 100%;
+}
+
+#roadtop {
+	background-color: dimgray;
+	height: 125px;
+	width: 100%;
+	position: relative;
+}
+
+#hedgehog {
+	background-image: url(ezys.png);
+	position: relative;
+	height: 120px;
+	width: 90px;
+	border-radius: 50px;
+	bottom: 0;
+	animation-name: drive;
+	animation-duration: 40s;
+}
+	@keyframes drive {
+		from {
+			transform: translateX(0px);
+		}
+		to {
+			transform: translateX(540px);
+		}
+	}
+
+}

@@ -1,0 +1,26 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	background-color: gray;
+	width: 600px;
+	height: 300px;
+	margin: 50px;
+	padding: 60px;
+}
+
+div {
+	background-color: darkorange;
+	width: 500px;
+	height: 100px;
+	line-height: 25px;
+	border: solid 20px;
+	border-image: url(paveikslai/border.png) repeat;
+	border-image-slice: 10%;
+	
+
+}
+
+p {color:white;}

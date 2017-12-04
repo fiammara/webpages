@@ -1,0 +1,87 @@
+h3 {
+  
+	font-family: "Arial Black";
+}
+.description {
+   font-style: italic;
+}
+li span {
+   font-family: "Arial Black";
+}
+
+.facts span {
+  font-family: "Arial Black";
+}
+
+
+li:first-child {
+	
+	visibility:hidden;
+
+	}
+li:first-child  span{
+	
+	visibility:visible;
+
+	}
+li:first-child :after {
+	
+	content: ": 2 yrs";
+	visibility:visible;
+	font-family: none;
+	}
+
+li:nth-child(2)  {
+
+	visibility:hidden;
+
+	}
+
+li:nth-child(2) span  {
+
+	visibility:visible;
+
+	}
+li:nth-child(2) :after  {
+
+	content: ": 2.1kg";
+	visibility:visible;
+	font-family: none;
+	}
+li:nth-child(3)  {
+
+	visibility:hidden;
+
+	}
+
+li:nth-child(3) span  {
+
+	visibility:visible;
+
+	}
+li:nth-child(3) :after  {
+
+	content: ": orange";
+	visibility:visible;
+	font-family: none;
+	}
+li:nth-child(4)  {
+
+	visibility:hidden;
+
+	}
+
+li:nth-child(4) span  {
+
+	visibility:visible;
+
+	}
+li:nth-child(4) :after  {
+
+	content: ": single 🙀";
+	visibility:visible;
+ 	font-family: none;
+	
+	}
+
+

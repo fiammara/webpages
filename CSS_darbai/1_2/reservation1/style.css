@@ -1,0 +1,27 @@
+h2 {
+
+
+	color: brown;
+}
+
+p {
+
+	font-family: "Comic Sans MS";
+	color: gray;
+	font-size: 30px;
+	border-bottom: dashed;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+p::before {
+	content: " ☎ "
+}
+
+
+
+#main {
+	width: 250px;
+	background-color: peachpuff;
+	margin-left: 400px;
+}

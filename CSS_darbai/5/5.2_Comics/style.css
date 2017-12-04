@@ -1,0 +1,126 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#1 {
+	height: 100%;
+	width: 100%;
+}
+
+section {
+	background-color: paleturquoise;
+	width: 650px;
+	height: 450px;
+	border-style: solid;
+	border-color: darkorange;
+	border-width: 1px;
+	margin: 40px;
+	position: relative;
+
+
+}
+
+p{
+	background-color: greenyellow;
+	width: 200px;
+	height: 40px;
+	bottom: 0px;
+	
+	margin: 0px;
+	position: absolute;
+	text-align: center;
+	line-height: 40px;
+	
+}
+
+#t1 {
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin: 7px;
+	position:relative;
+	background-image: url(paveikslai/2.png);
+	
+	
+	
+}
+
+#t2 {
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin: 7px;
+	background-image: url(paveikslai/1.png);
+
+
+}
+
+#t3 {
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin: 7px;
+	background-image: url(paveikslai/3.jpg);
+
+}
+
+#g1 {
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin: 7px;
+	background-image: url(paveikslai/4.jpg);
+
+}
+
+#g2 {
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin: 7px;
+	background-image: url(paveikslai/5.jpg);
+	position:relative;
+
+}
+
+#g3 {
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin: 7px;
+	background-image: url(paveikslai/6.jpg);
+
+}
+.speech-bubble {
+    background-color: #f8f8f8;
+    border: 1px solid #c8c8c8;
+    border-radius: 50px;
+    width: 40px;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+	margin-top:-30px;
+}
+
+.speech-bubble .arrow {
+    border-style: solid;
+    position: absolute;
+	margin-left:6px;
+}
+ 
+.bottom {
+    border-color: #c8c8c8 transparent transparent transparent;
+    border-width: 8px 8px 0px 8px;
+    bottom: -8px;
+	
+}
+.bottom:after {
+    border-color: #f8f8f8 transparent transparent transparent;
+    border-style: solid;
+    border-width: 7px 7px 0px 7px;
+    bottom: 1px;
+    content: "";
+    position: absolute;
+    left: -7px;
+}
