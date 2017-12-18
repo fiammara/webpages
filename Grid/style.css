@@ -1,0 +1,282 @@
+
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-auto-rows: minmax(100px, auto);
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+	background-color: rosybrown;
+
+}
+
+
+.cssgrid {
+
+	color: white;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	padding: 40px;
+	border-bottom: solid white 1px;
+	font-size: 20px;
+}
+
+.empty {
+	grid-column-start: 3;
+	grid-column-end: 7;
+	border-bottom: solid white 1px;
+	padding: 40px;
+}
+
+
+.home {
+	grid-column-start: 7;
+	grid-column-end: 8;
+	color: white;
+	padding: 40px;
+	border-bottom: solid white 1px;
+
+}
+
+.home:hover {
+
+	border-bottom: solid white 3px;
+}
+
+.portfolio {
+	color: white;
+	padding: 40px;
+	border-bottom: solid white 1px;
+}
+
+.portfolio:hover {
+
+	border-bottom: solid white 3px;
+}
+
+.services {
+	color: white;
+	padding: 40px;
+	border-bottom: solid white 1px;
+}
+
+.services:hover {
+
+	border-bottom: solid white 3px;
+}
+
+.about {
+	color: white;
+	padding: 40px;
+	border-bottom: solid white 1px;
+}
+
+.about:hover {
+
+	border-bottom: solid white 3px;
+}
+
+.blog {
+	color: white;
+	padding: 40px;
+	border-bottom: solid white 1px;
+}
+
+.blog:hover {
+
+	border-bottom: solid white 3px;
+}
+
+.contact {
+	color: white;
+	padding: 40px;
+	border-bottom: solid white 1px;
+}
+
+.contact:hover {
+
+	border-bottom: solid white 3px;
+}
+
+.template {
+	grid-row-start: 4;
+	grid-row-end: 5;
+	grid-column-start: 5;
+	grid-column-end: 8;
+	color: white;
+	font-size: 60px;
+	text-align: center;
+
+}
+
+.css {
+	grid-row-start: 5;
+	grid-row-end: 6;
+	grid-column-start: 6;
+	grid-column-end: 7;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+}
+
+.go {
+	grid-row-start: 6;
+	grid-row-end: 7;
+	grid-column-start: 6;
+	grid-column-end: 7;
+
+
+	font-size: 15px;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	background-color: limegreen;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+}
+
+.grid-container2 {
+	margin-top: 10px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-auto-rows: minmax(100px, auto);
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 10px;
+	background-color: white;
+}
+
+.selected {
+
+	grid-column-start: 1;
+	grid-column-end: 4;
+	padding-top: 10px;
+	font-family: Arial Black;
+
+}
+
+hr {
+	background-color: green;
+	height: 2px;
+	border: 0;
+	width: 10%;
+	margin-left: 0;
+}
+
+.text {
+	grid-row-start: 2;
+	grid-row-end: 3;
+	grid-column-start: 1;
+	grid-column-end: 5;
+	text-align: justify;
+}
+
+.violet {
+	grid-row-start: 1;
+	grid-row-end: 4;
+	grid-column-start: 7;
+	grid-column-end: 13;
+	background-color: darkviolet
+}
+
+.rose {
+	grid-row-start: 1;
+	grid-row-end: 4;
+	grid-column-start: 13;
+	grid-column-end: 25;
+	background-color: hotpink;
+}
+
+.aqua {
+	grid-row-start: 4;
+	grid-row-end: 7;
+	grid-column-start: 7;
+	grid-column-end: 19;
+	background-color: aqua;
+}
+
+.blue {
+	grid-row-start: 4;
+	grid-row-end: 7;
+	grid-column-start: 19;
+	grid-column-end: 25;
+	background-color: blue;
+}
+
+.grid-container3 {
+	margin-top: 10px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-auto-rows: minmax(100px, auto);
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 10px;
+	background-color: white;
+}
+
+.what {
+
+	grid-column-start: 1;
+	grid-column-end: 4;
+	padding-top: 10px;
+	font-family: Arial Black;
+
+}
+
+.text2 {
+	grid-row-start: 2;
+	grid-row-end: 3;
+	grid-column-start: 1;
+	grid-column-end: 5;
+	text-align: justify;
+}
+
+.web {
+	grid-row-start: 1;
+	grid-row-end: 4;
+	grid-column-start: 7;
+	grid-column-end: 13;
+
+}
+
+.mobile {
+	grid-row-start: 1;
+	grid-row-end: 4;
+	grid-column-start: 13;
+	grid-column-end: 19;
+
+}
+
+.ux {
+	grid-row-start: 1;
+	grid-row-end: 4;
+	grid-column-start: 19;
+	grid-column-end: 25;
+
+}
+
+.video {
+	grid-row-start: 4;
+	grid-row-end: 7;
+	grid-column-start: 7;
+	grid-column-end: 13;
+	
+}
+
+.seo {
+	grid-row-start: 4;
+	grid-row-end: 7;
+	grid-column-start: 13;
+	grid-column-end: 19;
+	
+}
+
+.cloud {
+	grid-row-start: 4;
+	grid-row-end: 7;
+	grid-column-start: 19;
+	grid-column-end: 25;
+	
+}
