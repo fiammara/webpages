@@ -1,0 +1,31 @@
+#fifth {
+	width: 600px;
+	height: 600px;
+	border-width: 2px;
+	border-color: green;
+	border-style: solid;
+}
+
+#buttonline {
+	border-style: none;
+	height: 10%;
+	padding-left: 30px;
+}
+
+#im {
+
+	margin: auto;
+	width: 200px;
+	height: 200px;
+	display: block;
+	padding-top: 30px;
+}
+
+#im2 {
+	display: none;
+}
+
+#para {
+
+	width: 100%;
+}

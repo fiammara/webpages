@@ -1,0 +1,12 @@
+#first {
+	width: 500px;
+
+	border-width: 2px;
+	border-color: green;
+	border-style: solid;
+	padding: 10px;
+}
+
+#d1 {
+	display: none;
+}

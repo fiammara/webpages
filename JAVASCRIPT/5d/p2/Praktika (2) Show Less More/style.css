@@ -1,0 +1,36 @@
+body{
+    background-color: #eee;
+}
+
+#content{
+    width: 400px;
+    background: #fff;
+    font-family: calibri;
+    font-size: 14px;
+    padding: 10px;
+    color: #444;
+    margin: 0 auto;
+    
+    max-height: 220px;
+    overflow: hidden;
+    
+    transition: max-height 0.8s;
+}
+
+#content.open{
+    max-height: 600px;
+    transition: max-height 0.8s;
+}
+
+#show-more{
+    background-color: skyblue;
+    color: white;
+    display: block;
+    width: 140px;
+    font-family: calibri;
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+    margin: 20px auto;
+    cursor: pointer;
+}
