@@ -19,6 +19,8 @@
 	margin-left: -30px;
 	box-shadow: 0 15px 16px -6px brown;
 	margin-bottom: 10px;
+	animation-duration: 4s;
+	animation-name: bandeletop;
 }
 
 .suris {
@@ -29,6 +31,8 @@
 	margin-left: -60px;
 	background-color: yellow;
 	border-radius: 4px;
+	animation-duration: 4s;
+	animation-name: suris;
 }
 
 .kecupas {
@@ -40,6 +44,8 @@
 	background-color: red;
 	border-color: red;
 	margin-left: -10px;
+	animation-duration: 4s;
+	animation-name: kecupas;
 
 }
 
@@ -49,7 +55,8 @@
 	border-top: 25px dotted violet;
 
 	background-color: darkviolet;
-
+	animation-duration: 3.5s;
+	animation-name: svogunas;
 
 }
 
@@ -61,6 +68,8 @@
 	background-color: saddlebrown;
 	border-radius: 50px 50px 50px 50px;
 	float: left;
+	animation-duration: 3s;
+	animation-name: mesa;
 }
 
 .agurkelis {
@@ -74,6 +83,8 @@
 	margin-left: -30px;
 	box-shadow: 0 15px 6px -6px green;
 	margin-bottom: 5px;
+	animation-duration: 2.5s;
+	animation-name: agurkas;
 }
 
 .mesos-paplotelis {
@@ -84,6 +95,8 @@
 	background-color: saddlebrown;
 	border-radius: 50px 50px 50px 50px;
 	margin-left: -50px;
+	animation-duration: 2s;
+	animation-name: paplotelis;
 
 }
 
@@ -96,8 +109,10 @@
 	background-color: sandybrown;
 	margin-left: -30px;
 	box-shadow: 0 -15px 30px 6px brown;
-	;
+
 	margin-top: 10px;
+	animation-duration: 1.5s;
+	animation-name: bandelebottom;
 }
 
 .lekste {
@@ -108,5 +123,92 @@
 	background-color: gray;
 	border-radius: 0px 00px 50px 50px;
 	margin-left: -50px;
+	animation-duration: 1s;
+	animation-name: lekste;
 
+}
+
+
+
+@keyframes lekste {
+	from {
+		transform: translateY(-400px);
+	}
+	to {
+		transform: translateY(0px);
+	}
+}
+
+@keyframes bandelebottom {
+	from {
+		transform: translateY(-400px);
+	}
+	to {
+		transform: translateY(0px);
+	}
+}
+
+@keyframes paplotelis {
+	from {
+		transform: translateY(-400px);
+	}
+	to {
+		transform: translateY(0px);
+	}
+}
+
+@keyframes agurkas {
+	from {
+		transform: translateY(-400px);
+	}
+	to {
+		transform: translateY(0px);
+	}
+}
+
+@keyframes mesa {
+	from {
+		transform: translateY(-400px);
+	}
+	to {
+		transform: translateY(0px);
+	}
+}
+
+@keyframes svogunas {
+	from {
+		transform: translateY(-400px);
+	}
+	to {
+		transform: translateY(0px);
+	}
+}
+
+
+
+@keyframes suris {
+	from {
+		transform: translateY(-400px);
+	}
+	to {
+		transform: translateY(0px);
+	}
+}
+
+@keyframes kecupas {
+	from {
+		transform: translateY(-400px);
+	}
+	to {
+		transform: translateY(0px);
+	}
+}
+
+@keyframes bandeletop {
+	from {
+		transform: translateY(-400px);
+	}
+	to {
+		transform: translateY(0px);
+	}
 }

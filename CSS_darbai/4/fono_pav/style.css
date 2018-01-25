@@ -1,18 +1,12 @@
 div {
-	background:url(pav/images/ground.png) no-repeat center center fixed; 
-	background-size: cover;
-	width:400px;
-	height:400px;
-	background-size:50px, 20px;
-	background-image: 
-		url(pav/ground.png) , url(pav/ribbon.jpg),
-		url(pav/branch.png);
-	background-position: left top, right bottom, left top;
+
+	width: 1200px;
+	height: 800px;
+	background-size: 500px, 200px;
+	background-image: url(pav/cat.png), url(pav/giphy.gif),
+	url(pav/tree.png);
+	background-position: left top, left bottom, right bottom;
 	background-repeat: no-repeat, no-repeat, no-repeat;
 }
-	
-	p{line-height:400px;
-		vertical-align:  middle;
-	
-	
-}
+
+
